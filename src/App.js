@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom'
-import Signin from './Components/Auth/Signin';
 import Header from './Components/Header';
 import About from './Components/About';
 import EventTypeList from './Components/EventTypeList';
 import './index.css'
 import MyEvents from './Components/MyEvents'
 import Tabs from './Components/Tabs'
-import CurrentInfo from './Components/CurrentInfo'
 import LocSearch from './Components/LocSearch'
 
 
