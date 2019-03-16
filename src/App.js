@@ -118,7 +118,7 @@ class App extends Component {
                 <React.Fragment> 
                  <Header />
                  <h3 style={{textAlign: 'center'}}> Click on an event type to select it! Limit of 3. You may select {3 - this.state.numSelected} more</h3>
-                 <h3 style={{textAlign: 'center'}}>After you have selected one or more elements click on Find Events</h3>
+                 <h3 style={{textAlign: 'center'}}>After you have selected one or more categories click on Find Events</h3>
                  <EventTypeList legal = {this.legal} eventTypes={this.state.eventTypes} select={this.select}/>
                 </React.Fragment>
               )} />
@@ -175,7 +175,7 @@ class App extends Component {
                 <React.Fragment> 
                  <Header />
                  <h3 style={{textAlign: 'center'}}> Click on an event type to select it! Limit of 3. You may select {3 - this.state.numSelected} more</h3>
-                 <h3 style={{textAlign: 'center'}}>After you have selected one or more elements click on Find Events</h3>
+                 <h3 style={{textAlign: 'center'}}>After you have selected one or more categories click on Find Events</h3>
                  <EventTypeList legal = {this.legal} eventTypes={this.state.eventTypes} select={this.select}/>
                 </React.Fragment>
               )} />
@@ -232,7 +232,7 @@ class App extends Component {
                 <React.Fragment> 
                  <Header />
                  <h3 style={{textAlign: 'center'}}> Click on an event type to select it! Limit of 3. You may select {3 - this.state.numSelected} more</h3>
-                 <h1>After you have selected one or more elements click on Find Events</h1>
+                 <h1>After you have selected one or more categories click on Find Events</h1>
                  <EventTypeList legal = {this.legal} eventTypes={this.state.eventTypes} select={this.select}/>
                 </React.Fragment>
               )} />
