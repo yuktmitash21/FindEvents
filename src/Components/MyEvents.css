@@ -1,0 +1,23 @@
+.card{
+    height: 80vh;
+    width: 30%;
+    margin-bottom: 5px;
+ 
+    background: #222;
+    color: #F2F2F2;
+    padding-right: 0%;
+    padding:1%;
+    margin-bottom: 0%;
+
+  }
+
+
+    
+.container{
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
